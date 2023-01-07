@@ -1,0 +1,34 @@
+
+body {
+  background-color: #1a1a1a; 
+}
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+
+.navbar{
+  box-shadow: 0 1px 10px 0 rgb(0 0 0 / 50%);
+}
+.cardBox{
+  box-shadow: 1px 2px 20px rgb(0 0 0 / 10%);
+}
+.cardBox:hover{
+  box-shadow: 3px 5px 30px 20px rgb(0 0 0 / 10%);
+}
+
+.active{
+  color:#db4d4e;
+  border-bottom:4px solid #db4d4e;
+}
+.activeNav{
+  color: #db4d4e;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
